@@ -8,7 +8,7 @@ func printMap(person map[string]string) {
 	for k, v := range person {
 		fmt.Println("Key -> ", k, " Value -> ", v)
 	}
-	fmt.Println("----------------------------")
+	fmt.Println("--------------------------------")
 }
 
 func main() {
