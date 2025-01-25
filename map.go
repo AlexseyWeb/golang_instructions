@@ -11,6 +11,8 @@ func printMap(person map[string]string) {
 	fmt.Println("--------------------------------")
 }
 
+var pause int
+
 func main() {
 	person := make(map[string]string)
 
@@ -26,4 +28,6 @@ func main() {
 	html_tag["body"] = "Body"
 
 	printMap(html_tag)
+
+	fmt.Scanln(&pause)
 }
